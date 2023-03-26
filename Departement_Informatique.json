@@ -1,0 +1,867 @@
+{
+	"Departement": {
+		"programme": [
+			{
+				"formation": [
+					{
+						"niveau": [
+							{
+								"_intitule": "ICTL1"
+							},
+							{
+								"option": [
+									{
+										"ue": {
+											"resource": [
+												{
+													"_xsi:type": "monsite:TD",
+													"_nom": "Fiche 1"
+												},
+												{
+													"_xsi:type": "monsite:Cour",
+													"_nom": "Slide1"
+												},
+												{
+													"_xsi:type": "monsite:Cour",
+													"_nom": "Slide 2"
+												},
+												{
+													"_xsi:type": "monsite:Cour",
+													"_nom": "Slide 3"
+												}
+											],
+											"responsable": [
+												{
+													"_matricule": "09S1687",
+													"_nom": "Mr Ndjiki",
+													"_date_naissance": "22/03/186",
+													"_fonction": "Enseignant",
+													"_domain": "Genie_logiciel"
+												},
+												{
+													"_matricule": "10Q5841"
+												},
+												{
+													"_matricule": "04T6592",
+													"_grade": "PR"
+												}
+											],
+											"_code": "ICT204",
+											"_intitule": "Web Programming"
+										},
+										"_nom": "Geni-Logiciel",
+										"_critère": "Mention Bien"
+									},
+									{
+										"_nom": "Securité"
+									},
+									{
+										"_nom": "Reseau"
+									}
+								],
+								"competence": "",
+								"semestre": [
+									{
+										"_numero": "1",
+										"_nom": "S1"
+									},
+									{
+										"_nom": "S2"
+									}
+								],
+								"_intitule": "ICTL2"
+							},
+							{
+								"option": [
+									{
+										"ue": {
+											"resource": {
+												"_xsi:type": "monsite:TD"
+											},
+											"sceance": [
+												{
+													"objectif": {
+														"_titre": "Initiation au génie logiciel Avancé"
+													}
+												},
+												""
+											],
+											"_code": "ICT316"
+										},
+										"_nom": "Geni-Logiciel",
+										"_critère": "Mention Bien"
+									},
+									{
+										"_nom": "Securité"
+									},
+									{
+										"_nom": "Reseau"
+									}
+								],
+								"_intitule": "ICTL3"
+							}
+						],
+						"_nom": "Licence ICT4D"
+					},
+					{
+						"niveau": [
+							{
+								"competence": {
+									"_intitule": "Programmeur",
+									"_description": "Programmeur"
+								},
+								"semestre": [
+									{
+										"ue": [
+											{
+												"responsable": [
+													{
+														"_matricule": "08F2563"
+													},
+													{
+														"_matricule": "041256",
+														"_grade": "PR"
+													}
+												],
+												"_code": "INF101"
+											},
+											{
+												"resource": [
+													{
+														"_xsi:type": "monsite:Cour",
+														"_nom": "Slide 1"
+													},
+													{
+														"_xsi:type": "monsite:Cour",
+														"_nom": "Slide 12"
+													},
+													{
+														"_xsi:type": "monsite:Cour",
+														"_nom": "Slide 1"
+													},
+													{
+														"_xsi:type": "monsite:TD",
+														"_nom": "Fiche TD 1"
+													}
+												],
+												"_code": "INF102",
+												"_intitule": ""
+											},
+											{
+												"responsable": [
+													{
+														"_matricule": "11P3598"
+													},
+													{
+														"_matricule": "09K4587",
+														"_grade": "PR"
+													},
+													{
+														"_matricule": "087421",
+														"_grade": "MC"
+													}
+												],
+												"_code": "INF103"
+											},
+											{
+												"sceance": {
+													"objectif": [
+														{
+															"_titre": "Le Processeur"
+														},
+														{
+															"_titre": "Le disque Dur"
+														}
+													],
+													"_jour": "14/072013",
+													"_nom": ""
+												},
+												"objectif": {
+													"_titre": "Maitriser l'architecture des ordinateurs"
+												},
+												"_code": "INF104"
+											},
+											{
+												"_code": "INF105"
+											}
+										],
+										"_nom": "S1"
+									},
+									{
+										"ue": [
+											{
+												"_code": "INF106"
+											},
+											{
+												"_code": "INF107",
+												"_intitule": ""
+											},
+											{
+												"_code": "INF108"
+											},
+											{
+												"_code": "INF109"
+											},
+											{
+												"_code": "INF110"
+											}
+										],
+										"_nom": "S2"
+									}
+								],
+								"_intitule": "L1"
+							},
+							{
+								"competence": {
+									"_intitule": "Analyste",
+									"_description": "Analyste"
+								},
+								"_intitule": "L2",
+								"_presidentJury": ""
+							},
+							{
+								"competence": {
+									"_intitule": "Concepteur",
+									"_description": "Concepteur"
+								},
+								"_intitule": "L3"
+							}
+						],
+						"_nom": "Licence Fondemantal"
+					}
+				],
+				"_critere": "Licence"
+			},
+			{
+				"formation": [
+					{
+						"niveau": [
+							{
+								"option": [
+									{
+										"semestre": [
+											{
+												"ue": [
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "FIche TD 1"
+															},
+															{
+																"_xsi:type": "monsite:TP",
+																"_nom": "Realiser un compilateur",
+																"_intitule": "Realiser un compilateur"
+															},
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Tuto_Video_Automate_a pile.pm4"
+															}
+														],
+														"responsable": {
+															"_matricule": "04P0025",
+															"_nom": "Dr Tapamo"
+														},
+														"_code": "INF4038"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": [
+															{
+																"_matricule": "10T2569",
+																"_nom": "Dr Messi"
+															},
+															{
+																"_matricule": "07A2148",
+																"_nom": "Dr Kouakam"
+															}
+														],
+														"objectif": {
+															"_titre": "Devellopper des applications disposant d'une BD Distribué"
+														},
+														"competence": [
+															{
+																"_intitule": "Database system Management"
+															},
+															{
+																"_intitule": "Develloppement d'un SGD"
+															}
+														],
+														"_code": "INF4048",
+														"_intitule": " Automate"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "092198",
+															"_nom": "Dr Fidel"
+														},
+														"objectif": [
+															{
+																"_titre": "Develloppé des applications IOS er Andrid "
+															},
+															""
+														],
+														"competence": {
+															"_intitule": "Develloppeur Web Mobile"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4188",
+														"_intitule": "Dev Mobile"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "07A2148",
+															"_nom": "Dr Kimbi Xaveria"
+														},
+														"objectif": {
+															"_titre": "Design Architecture of All software to reduce is complexity"
+														},
+														"competence": {
+															"_intitule": "Architecte Logiciel"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4178",
+														"_intitule": "Software Architecture"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "07A2197",
+															"_nom": "Dr Abessolo"
+														},
+														"objectif": {
+															"_titre": "Accelerer le develliopement par le moyen des Design Patterns"
+														},
+														"competence": {
+															"_intitule": "Software Architecture"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4228",
+														"_intitule": "Design Pattern"
+													}
+												],
+												"_nom": "S1"
+											},
+											{
+												"ue": [
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "FIche TD 1"
+															},
+															{
+																"_xsi:type": "monsite:TP",
+																"_nom": "Modeliser le stade de Olembe avec toutes ses entités",
+																"_intitule": "Realiser un compilateur"
+															},
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Tuto_Video_Automate_a pile.pm4"
+															}
+														],
+														"responsable": {
+															"_matricule": "04P0025",
+															"_nom": "Pr Roger Atsa"
+														},
+														"_code": "INF4107"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 2"
+															},
+															{
+																"_xsi:type": "monsite:TP",
+																"_nom": "Implementer les Algo tels que KAratsuba, Sac a Dos, VOoyageur de commerce..."
+															}
+														],
+														"responsable": [
+															{
+																"_matricule": "10T2569",
+																"_nom": "Dr Paulin"
+															},
+															{
+																"_matricule": "07A2148",
+																"_nom": "Dr Kouakam"
+															}
+														],
+														"objectif": {
+															"_titre": "Devellopper des applications disposant d'une BD Distribué"
+														},
+														"competence": [
+															{
+																"_intitule": "Database system Management"
+															},
+															{
+																"_intitule": "Develloppement d'un SGD"
+															}
+														],
+														"_code": "INF4109",
+														"_intitule": " Automate"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "092198",
+															"_nom": "Dr Fidel"
+														},
+														"objectif": {
+															"_titre": "Conception et utilisation d'un graphe de connaissance"
+														},
+														"competence": {
+															"_intitule": "Knowledge Ingineering"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4077",
+														"_intitule": "Web Sementic"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "07A2148",
+															"_nom": "Dr Kimbi Xaveria"
+														},
+														"objectif": {
+															"_titre": "Optimisation Des Solutions Logiciel"
+														},
+														"competence": {
+															"_intitule": "Software Testing"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4057",
+														"_intitule": "Software Architecture"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "092198",
+															"_nom": "Dr Fidel"
+														},
+														"objectif": {
+															"_titre": "Accelerer le develliopement par le moyen des Design Patterns"
+														},
+														"competence": {
+															"_intitule": "Software Architecture"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4035",
+														"_intitule": "Design Pattern"
+													}
+												],
+												"_nom": "S2"
+											}
+										],
+										"_nom": "Genie-Logiciel"
+									},
+									{
+										"semestre": [
+											{
+												"ue": [
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "FIche TD 1"
+															},
+															{
+																"_xsi:type": "monsite:TP",
+																"_nom": "Realiser un compilateur",
+																"_intitule": "Realiser un compilateur"
+															},
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Tuto_Video_Automate_a pile.pm4"
+															}
+														],
+														"responsable": {
+															"_matricule": "04P0025",
+															"_nom": "Dr Tapamo"
+														},
+														"_code": "INF4038"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": [
+															{
+																"_matricule": "10T2569",
+																"_nom": "Dr Messi"
+															},
+															{
+																"_matricule": "07A2148",
+																"_nom": "Dr Kouakam"
+															}
+														],
+														"objectif": {
+															"_titre": "Devellopper des applications disposant d'une BD Distribué"
+														},
+														"competence": [
+															{
+																"_intitule": "Database system Management"
+															},
+															{
+																"_intitule": "Develloppement d'un SGBD"
+															}
+														],
+														"_code": "INF4048",
+														"_intitule": " Automate"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "12O8457",
+															"_nom": "Dr Nzekong"
+														},
+														"objectif": {
+															"_titre": "Creer des model en  datatasciences"
+														},
+														"competence": {
+															"_intitule": "Datascientist"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4258",
+														"_intitule": "Datascience"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "04P0025",
+															"_nom": "Dr Tapamo"
+														},
+														"objectif": {
+															"_titre": "Solve Problem with computer vision"
+														},
+														"competence": {
+															"_intitule": "Datascience"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4238",
+														"_intitule": "Vision Par Ordinateur"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "07A2197",
+															"_nom": "Dr Paulin"
+														},
+														"objectif": {
+															"_titre": "Accelerer le develliopement par le moyen des Design Patterns"
+														},
+														"competence": {
+															"_intitule": "Software Architecture"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4248",
+														"_intitule": "Algorithme et complexité Avancé"
+													}
+												],
+												"_nom": "S1"
+											},
+											{
+												"ue": [
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "FIche TD 1"
+															},
+															{
+																"_xsi:type": "monsite:TP",
+																"_nom": "Modeliser le stade de Olembe avec toutes ses entités",
+																"_intitule": "Realiser un compilateur"
+															},
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Tuto_Video_Automate_a pile.pm4"
+															}
+														],
+														"responsable": {
+															"_matricule": "04P0025",
+															"_nom": "Pr Roger Atsa"
+														},
+														"_code": "INF4107"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 2"
+															},
+															{
+																"_xsi:type": "monsite:TP",
+																"_nom": "Implementer les Algo tels que KAratsuba, Sac a Dos, VOoyageur de commerce..."
+															}
+														],
+														"responsable": [
+															{
+																"_matricule": "10T2569",
+																"_nom": "Dr Paulin"
+															},
+															{
+																"_matricule": "07A2148",
+																"_nom": "Dr Kouakam"
+															}
+														],
+														"objectif": {
+															"_titre": "Devellopper des applications disposant d'une BD Distribué"
+														},
+														"competence": [
+															{
+																"_intitule": "Database system Management"
+															},
+															{
+																"_intitule": "Develloppement d'un SGD"
+															}
+														],
+														"_code": "INF4109",
+														"_intitule": " Automate"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "092198",
+															"_nom": "Pr Tsobze"
+														},
+														"objectif": {
+															"_titre": "Machine Learning"
+														},
+														"competence": {
+															"_intitule": "Machine Learning"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4117",
+														"_intitule": "Web Sementic"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "10D8756",
+															"_nom": "Dr messi"
+														},
+														"objectif": {
+															"_titre": "Deep Neural Network"
+														},
+														"competence": {
+															"_intitule": "DataScientist"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4057",
+														"_intitule": "Software Architecture"
+													},
+													{
+														"resource": [
+															{
+																"_xsi:type": "monsite:Cour",
+																"_nom": "Slide 1"
+															},
+															{
+																"_xsi:type": "monsite:TD",
+																"_nom": "Fiche TD 1"
+															}
+														],
+														"responsable": {
+															"_matricule": "10I7562",
+															"_nom": "Melatagia"
+														},
+														"objectif": {
+															"_titre": "Construction et optimisation des Model de Machine Learning"
+														},
+														"_xsi:type": "monsite:UE_Optionnelle",
+														"_code": "INF4035",
+														"_intitule": "Design Pattern"
+													}
+												],
+												"_nom": "S2"
+											}
+										],
+										"_nom": "Sciences des données"
+									}
+								],
+								"_intitule": "M1",
+								"_presidentJury": "Dr Paulin"
+							},
+							{
+								"semestre": [
+									{
+										"_nom": "S1"
+									},
+									{
+										"_nom": "S2"
+									}
+								],
+								"_intitule": "M2",
+								"_presidentJury": "Pr Atsa"
+							}
+						],
+						"debouches": {
+							"_titre": "Expert en SI, Expert en Sécu , Expert en Datascience"
+						},
+						"_nom": "Master Fondemental"
+					},
+					{
+						"_nom": "Master ICT4D"
+					},
+					{
+						"_nom": "Master Pro"
+					}
+				],
+				"_critere": "Master"
+			},
+			{
+				"formation": [
+					{
+						"_nom": "Doctorat Science de L'ingenieur"
+					},
+					{
+						"_nom": "Recherche"
+					}
+				],
+				"_critere": "Doctorat"
+			}
+		],
+		"_xmlns:xmi": "http://www.omg.org/XMI",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xmlns:monsite": "monsite1",
+		"_xmi:version": "2.0",
+		"_xsi:schemaLocation": "monsite1 Site.ecore",
+		"_nom": "Informatique",
+		"_chef": "Dr Aminou",
+		"__prefix": "monsite"
+	}
+}
