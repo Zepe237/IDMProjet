@@ -1,0 +1,125 @@
+-- Transformation rules for XMI to JSON
+
+-- Helper rules for JSON formatting
+helper def: indent(indentation : String, depth : Integer) : String =
+    if depth > 0 then
+        indentation + indent(indentation, depth - 1)
+    else
+        ''
+
+helper def: jsonKeyValue(key : String, value : String) : String =
+    '"' + key + '": "' + value + '"'
+
+-- Root rule for the transformation
+rule XMItoJSON {
+    from
+        xmi : XMI!programme
+    to
+        json : String
+    do
+        json := '{
+            "programme": {
+                ' + transform(xmi.formation) + '
+            }
+        }'
+    }
+
+-- Rule for transforming formations
+rule FormationToJSON {
+    from
+        formation : XMI!formation
+    to
+        json : String
+    do
+        json := '"' + formation.nom + '": {
+            ' + transform(formation.niveau) + '
+        }"'
+    }
+
+-- Rule for transforming niveaux
+rule NiveauToJSON {
+    from
+        niveau : XMI!niveau
+    to
+        json : String
+    do
+        json := '"' + niveau.intitule + '": {
+            ' + transform(niveau.option) + ',
+            ' + transform(niveau.semestre) + '
+        }"'
+    }
+
+-- Rule for transforming options
+rule OptionToJSON {
+    from
+        option : XMI!option
+    to
+        json : String
+    do
+        json := '"' + option.nom + '": {
+            ' + jsonKeyValue("critere", option.critère) + ',
+            ' + transform(option.ue) + '
+        }"'
+    }
+
+-- Rule for transforming UE
+rule UeToJSON {
+    from
+        ue : XMI!ue
+    to
+        json : String
+    do
+        json := '"' + ue.code + '": {
+            ' + transform(ue.resource) + ',
+            ' + transform(ue.responsable) + ',
+            ' + transform(ue.sceance) + '
+        }"'
+    }
+
+-- Rule for transforming resources
+rule ResourceToJSON {
+    from
+        resource : XMI!resource
+    to
+        json : String
+    do
+        json := '"' + resource.xsi:type + '": {
+            ' + jsonKeyValue("nom", resource.nom) + '
+        }"'
+    }
+
+-- Rule for transforming responsables
+rule ResponsableToJSON {
+    from
+        responsable : XMI!responsable
+    to
+        json : String
+    do
+        json := '"' + responsable.matricule + '": {
+            ' + jsonKeyValue("nom", responsable.nom) + ',
+            ' + jsonKeyValue("date_naissance", responsable.date_naissance) + ',
+            ' + jsonKeyValue("fonction", responsable.fonction) + ',
+            ' + jsonKeyValue("domain", responsable.domain) + ',
+            ' + jsonKeyValue("grade", responsable.grade) + '
+        }"'
+    }
+
+-- Rule for transforming sceances
+rule SceanceToJSON {
+    from
+        sceance : XMI!sceance
+    to
+        json : String
+    do
+        json := '{' + transform(sceance.objectif) + '}'
+    }
+
+-- Rule for transforming objectifs
+rule ObjectifToJSON {
+    from
+        objectif : XMI!objectif
+    to
+        json : String
+    do
+        json := '"' + objectif.titre + '": {
+            '

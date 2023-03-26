@@ -1,0 +1,24 @@
+module XMI2JSON;
+
+create OUT : JSONFile from IN : XMIFile;
+
+library json 'http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar';
+
+import json org.codehaus.jackson.map.ObjectMapper;
+
+rule XMI2JSON {
+    from
+        x : XMI!Package
+    to
+        j : JSON!JSONObject (
+            data <- toJSON(x)
+        )
+}
+
+helper def : toJSON(obj : EObject) : JSON!JSONObject =
+    let
+        mapper : ObjectMapper = new ObjectMapper();
+        writer : StringWriter = new StringWriter();
+    in
+        mapper.writerWithDefaultPrettyPrinter().writeValue(writer, obj);
+        JSON!JSONObject { value <- writer.toString() };

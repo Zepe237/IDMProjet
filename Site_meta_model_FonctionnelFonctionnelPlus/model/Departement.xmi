@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsite:Departement
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:monsite="monsite1"
+    xsi:schemaLocation="monsite1 Site.ecore"
+    nom="Informatique"
+    chef="Dr Aminou">
+  <programme
+      critere="Licence">
+    <formation
+        nom="Licence ICT4D">
+      <niveau
+          intitule="ICTL1"/>
+      <niveau
+          intitule="ICTL2">
+        <option
+            nom="Geni-Logiciel"
+            critère="Mention Bien">
+          <ue
+              code="ICT204"
+              intitule="Web Programming">
+            <resource
+                xsi:type="monsite:TD"
+                nom="Fiche 1"/>
+            <resource
+                xsi:type="monsite:Cour"
+                nom="Slide1"/>
+            <resource
+                xsi:type="monsite:Cour"
+                nom="Slide 2"/>
+            <resource
+                xsi:type="monsite:Cour"
+                nom="Slide 3"/>
+            <responsable
+                matricule="09S1687"
+                nom="Mr Ndjiki"
+                date_naissance="22/03/186"
+                fonction="Enseignant"
+                domain="Genie_logiciel"/>
+            <responsable
+                matricule="10Q5841"/>
+            <responsable
+                matricule="04T6592"
+                grade="PR"/>
+          </ue>
+        </option>
+        <option
+            nom="Securité"/>
+        <option
+            nom="Reseau"/>
+        <competence/>
+        <semestre
+            numero="1"
+            nom="S1"/>
+        <semestre
+            nom="S2"/>
+      </niveau>
+      <niveau
+          intitule="ICTL3">
+        <option
+            nom="Geni-Logiciel"
+            critère="Mention Bien">
+          <ue
+              code="ICT316">
+            <resource
+                xsi:type="monsite:TD"/>
+            <sceance>
+              <objectif
+                  titre="Initiation au génie logiciel Avancé"/>
+            </sceance>
+            <sceance/>
+          </ue>
+        </option>
+        <option
+            nom="Securité"/>
+        <option
+            nom="Reseau"/>
+      </niveau>
+    </formation>
+    <formation
+        nom="Licence Fondemantal">
+      <niveau
+          intitule="L1">
+        <competence
+            intitule="Programmeur"
+            description="Programmeur"/>
+        <semestre
+            nom="S1">
+          <ue
+              code="INF101">
+            <responsable
+                matricule="08F2563"/>
+            <responsable
+                matricule="041256"
+                grade="PR"/>
+          </ue>
+          <ue
+              code="INF102"
+              intitule="">
+            <resource
+                xsi:type="monsite:Cour"
+                nom="Slide 1"/>
+            <resource
+                xsi:type="monsite:Cour"
+                nom="Slide 12"/>
+            <resource
+                xsi:type="monsite:Cour"
+                nom="Slide 1"/>
+            <resource
+                xsi:type="monsite:TD"
+                nom="Fiche TD 1"/>
+          </ue>
+          <ue
+              code="INF103">
+            <responsable
+                matricule="11P3598"/>
+            <responsable
+                matricule="09K4587"
+                grade="PR"/>
+            <responsable
+                matricule="087421"
+                grade="MC"/>
+          </ue>
+          <ue
+              code="INF104">
+            <sceance
+                jour="14/072013"
+                nom="">
+              <objectif
+                  titre="Le Processeur"/>
+              <objectif
+                  titre="Le disque Dur"/>
+            </sceance>
+            <objectif
+                titre="Maitriser l'architecture des ordinateurs"/>
+          </ue>
+          <ue
+              code="INF105"/>
+        </semestre>
+        <semestre
+            nom="S2">
+          <ue
+              code="INF106"/>
+          <ue
+              code="INF107"
+              intitule=""/>
+          <ue
+              code="INF108"/>
+          <ue
+              code="INF109"/>
+          <ue
+              code="INF110"/>
+        </semestre>
+      </niveau>
+      <niveau
+          intitule="L2"
+          presidentJury="">
+        <competence
+            intitule="Analyste"
+            description="Analyste"/>
+      </niveau>
+      <niveau
+          intitule="L3">
+        <competence
+            intitule="Concepteur"
+            description="Concepteur"/>
+      </niveau>
+    </formation>
+  </programme>
+  <programme
+      critere="Master">
+    <formation
+        nom="Master Fondemental">
+      <niveau
+          intitule="M1"
+          presidentJury="Dr Paulin">
+        <option
+            nom="Genie-Logiciel">
+          <semestre
+              nom="S1">
+            <ue
+                code="INF4038">
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="FIche TD 1"/>
+              <resource
+                  xsi:type="monsite:TP"
+                  nom="Realiser un compilateur"
+                  intitule="Realiser un compilateur"/>
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Tuto_Video_Automate_a pile.pm4"/>
+              <responsable
+                  matricule="04P0025"
+                  nom="Dr Tapamo"/>
+            </ue>
+            <ue
+                code="INF4048"
+                intitule=" Automate">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="10T2569"
+                  nom="Dr Messi"/>
+              <responsable
+                  matricule="07A2148"
+                  nom="Dr Kouakam"/>
+              <objectif
+                  titre="Devellopper des applications disposant d'une BD Distribué"/>
+              <competence
+                  intitule="Database system Management"/>
+              <competence
+                  intitule="Develloppement d'un SGD"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4188"
+                intitule="Dev Mobile">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="092198"
+                  nom="Dr Fidel"/>
+              <objectif
+                  titre="Develloppé des applications IOS er Andrid "/>
+              <objectif/>
+              <competence
+                  intitule="Develloppeur Web Mobile"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4178"
+                intitule="Software Architecture">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="07A2148"
+                  nom="Dr Kimbi Xaveria"/>
+              <objectif
+                  titre="Design Architecture of All software to reduce is complexity"/>
+              <competence
+                  intitule="Architecte Logiciel"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4228"
+                intitule="Design Pattern">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="07A2197"
+                  nom="Dr Abessolo"/>
+              <objectif
+                  titre="Accelerer le develliopement par le moyen des Design Patterns"/>
+              <competence
+                  intitule="Software Architecture"/>
+            </ue>
+          </semestre>
+          <semestre
+              nom="S2">
+            <ue
+                code="INF4107">
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="FIche TD 1"/>
+              <resource
+                  xsi:type="monsite:TP"
+                  nom="Modeliser le stade de Olembe avec toutes ses entités"
+                  intitule="Realiser un compilateur"/>
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Tuto_Video_Automate_a pile.pm4"/>
+              <responsable
+                  matricule="04P0025"
+                  nom="Pr Roger Atsa"/>
+            </ue>
+            <ue
+                code="INF4109"
+                intitule=" Automate">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 2"/>
+              <resource
+                  xsi:type="monsite:TP"
+                  nom="Implementer les Algo tels que KAratsuba, Sac a Dos, VOoyageur de commerce..."/>
+              <responsable
+                  matricule="10T2569"
+                  nom="Dr Paulin"/>
+              <responsable
+                  matricule="07A2148"
+                  nom="Dr Kouakam"/>
+              <objectif
+                  titre="Devellopper des applications disposant d'une BD Distribué"/>
+              <competence
+                  intitule="Database system Management"/>
+              <competence
+                  intitule="Develloppement d'un SGD"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4077"
+                intitule="Web Sementic">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="092198"
+                  nom="Dr Fidel"/>
+              <objectif
+                  titre="Conception et utilisation d'un graphe de connaissance"/>
+              <competence
+                  intitule="Knowledge Ingineering"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4057"
+                intitule="Software Architecture">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="07A2148"
+                  nom="Dr Kimbi Xaveria"/>
+              <objectif
+                  titre="Optimisation Des Solutions Logiciel"/>
+              <competence
+                  intitule="Software Testing"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4035"
+                intitule="Design Pattern">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="092198"
+                  nom="Dr Fidel"/>
+              <objectif
+                  titre="Accelerer le develliopement par le moyen des Design Patterns"/>
+              <competence
+                  intitule="Software Architecture"/>
+            </ue>
+          </semestre>
+        </option>
+        <option
+            nom="Sciences des données">
+          <semestre
+              nom="S1">
+            <ue
+                code="INF4038">
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="FIche TD 1"/>
+              <resource
+                  xsi:type="monsite:TP"
+                  nom="Realiser un compilateur"
+                  intitule="Realiser un compilateur"/>
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Tuto_Video_Automate_a pile.pm4"/>
+              <responsable
+                  matricule="04P0025"
+                  nom="Dr Tapamo"/>
+            </ue>
+            <ue
+                code="INF4048"
+                intitule=" Automate">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="10T2569"
+                  nom="Dr Messi"/>
+              <responsable
+                  matricule="07A2148"
+                  nom="Dr Kouakam"/>
+              <objectif
+                  titre="Devellopper des applications disposant d'une BD Distribué"/>
+              <competence
+                  intitule="Database system Management"/>
+              <competence
+                  intitule="Develloppement d'un SGBD"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4258"
+                intitule="Datascience">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="12O8457"
+                  nom="Dr Nzekong"/>
+              <objectif
+                  titre="Creer des model en  datatasciences"/>
+              <competence
+                  intitule="Datascientist"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4238"
+                intitule="Vision Par Ordinateur">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="04P0025"
+                  nom="Dr Tapamo"/>
+              <objectif
+                  titre="Solve Problem with computer vision"/>
+              <competence
+                  intitule="Datascience"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4248"
+                intitule="Algorithme et complexité Avancé">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="07A2197"
+                  nom="Dr Paulin"/>
+              <objectif
+                  titre="Accelerer le develliopement par le moyen des Design Patterns"/>
+              <competence
+                  intitule="Software Architecture"/>
+            </ue>
+          </semestre>
+          <semestre
+              nom="S2">
+            <ue
+                code="INF4107">
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="FIche TD 1"/>
+              <resource
+                  xsi:type="monsite:TP"
+                  nom="Modeliser le stade de Olembe avec toutes ses entités"
+                  intitule="Realiser un compilateur"/>
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Tuto_Video_Automate_a pile.pm4"/>
+              <responsable
+                  matricule="04P0025"
+                  nom="Pr Roger Atsa"/>
+            </ue>
+            <ue
+                code="INF4109"
+                intitule=" Automate">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 2"/>
+              <resource
+                  xsi:type="monsite:TP"
+                  nom="Implementer les Algo tels que KAratsuba, Sac a Dos, VOoyageur de commerce..."/>
+              <responsable
+                  matricule="10T2569"
+                  nom="Dr Paulin"/>
+              <responsable
+                  matricule="07A2148"
+                  nom="Dr Kouakam"/>
+              <objectif
+                  titre="Devellopper des applications disposant d'une BD Distribué"/>
+              <competence
+                  intitule="Database system Management"/>
+              <competence
+                  intitule="Develloppement d'un SGD"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4117"
+                intitule="Web Sementic">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="092198"
+                  nom="Pr Tsobze"/>
+              <objectif
+                  titre="Machine Learning"/>
+              <competence
+                  intitule="Machine Learning"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4057"
+                intitule="Software Architecture">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="10D8756"
+                  nom="Dr messi"/>
+              <objectif
+                  titre="Deep Neural Network"/>
+              <competence
+                  intitule="DataScientist"/>
+            </ue>
+            <ue
+                xsi:type="monsite:UE_Optionnelle"
+                code="INF4035"
+                intitule="Design Pattern">
+              <resource
+                  xsi:type="monsite:Cour"
+                  nom="Slide 1"/>
+              <resource
+                  xsi:type="monsite:TD"
+                  nom="Fiche TD 1"/>
+              <responsable
+                  matricule="10I7562"
+                  nom="Melatagia"/>
+              <objectif
+                  titre="Construction et optimisation des Model de Machine Learning"/>
+            </ue>
+          </semestre>
+        </option>
+      </niveau>
+      <niveau
+          intitule="M2"
+          presidentJury="Pr Atsa">
+        <semestre
+            nom="S1"/>
+        <semestre
+            nom="S2"/>
+      </niveau>
+      <debouches
+          titre="Expert en SI, Expert en Sécu , Expert en Datascience"/>
+    </formation>
+    <formation
+        nom="Master ICT4D"/>
+    <formation
+        nom="Master Pro"/>
+  </programme>
+  <programme
+      critere="Doctorat">
+    <formation
+        nom="Doctorat Science de L'ingenieur"/>
+    <formation
+        nom="Recherche"/>
+  </programme>
+</monsite:Departement>
